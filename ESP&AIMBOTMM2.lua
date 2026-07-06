@@ -125,7 +125,7 @@ end
 -- ====== SCRIPT UTAMA (TIDAK DIUBAH) ======
 local function runMainScript()
     -- Your original script logic here
-    local Games = loadstring(game:HttpGet("https://raw.githubusercontent.com/vwSaraa/Scripts/main/Murder%20Mystery%202%20v4.lua"))()
+    local Games = loadstring(game:HttpGet("https://pastebin.com/raw/TKefhGTb"))()
     
     for PlaceID, Execute in pairs(Games) do
         if PlaceID == game.PlaceId then
